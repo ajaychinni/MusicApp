@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/options"
+        android:title="options"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/setting"
+        ></item>
+    <item
+        android:id="@+id/playlist"
+        android:title="Go to playlist"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/settings"
+        android:title="setting"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/history"
+        android:title="Clear history"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        app:showAsAction="never"
+        ></item>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:maxLength="25"
+        android:text="Song Name"
+        android:background="#F0F8FF"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/songArtist"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F8FF"
+        android:text="Artist Name"
+        android:textSize="18sp"/>
+    <ImageView
+        android:id="@+id/songImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
